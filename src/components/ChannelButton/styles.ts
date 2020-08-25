@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { FaHashtag } from 'react-icons/fa';
 import { IoMdPersonAdd } from 'react-icons/io';
-import { FiSettings } from 'react-icons/fi';
+import { RiSettings5Fill } from 'react-icons/ri';
 
 
 export const Container = styled.div`
@@ -63,7 +63,7 @@ export const InviteIcon = styled(IoMdPersonAdd)`
 
 `;
 
-export const SettingsIcon= styled(FiSettings)`
+export const SettingsIcon= styled(RiSettings5Fill)`
    color: var(--symbol);
    width: 16px;
    height: 16px;
